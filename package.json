@@ -1,0 +1,25 @@
+{
+  "name": "my-nodejs-webapp",
+  "version": "1.0.0",
+  "description": "nodejs webapp",
+  "author": "ibtissame",
+  "homepage": "https://github.com/ibtissameHORMAT-ALLAH/fbpmn-hci",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibtissameHORMAT-ALLAH/fbpmn-hci.git"
+  },
+  "license": "MIT",
+  "main": "monapp.js",
+  "scripts": {
+    "start": "node monapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
