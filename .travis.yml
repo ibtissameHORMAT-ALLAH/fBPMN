@@ -7,7 +7,7 @@ install:
   - npm install
 
 script:
-  -npm init
+ - npm init
  - npm test
  - npm run build
  
