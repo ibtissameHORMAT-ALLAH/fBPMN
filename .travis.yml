@@ -18,3 +18,4 @@ skip-cleanup: true
 on:
 branch: master
     
+warnings_are_errors: false    
