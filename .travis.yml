@@ -9,7 +9,7 @@ install:
 script:
  - npm init
  - npm test
- - npm run build
+ - CI=false npm run build
  
     
 deploy:
@@ -18,4 +18,3 @@ skip-cleanup: true
 on:
 branch: master
     
-warnings_are_errors: false    
