@@ -7,9 +7,8 @@ install:
   - npm install
 
 script:
- - npm init
  - npm test
- - CI=false npm run build
+ - npm run build
  
     
 deploy:
@@ -17,4 +16,6 @@ provider: pages
 skip-cleanup: true
 on:
 branch: master
+
+    
     
