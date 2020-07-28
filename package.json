@@ -12,7 +12,6 @@
   "main": "monapp.js",
   "scripts": {
     "start": "node monapp.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "nodejs",
