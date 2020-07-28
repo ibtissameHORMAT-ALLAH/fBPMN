@@ -11,7 +11,7 @@
   "license": "MIT",
   "main": "monapp.js",
   "scripts": {
-    "start": "node monapp.js",
+    "start": "node monapp.js"
   },
   "keywords": [
     "nodejs",
