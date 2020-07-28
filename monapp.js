@@ -17,7 +17,7 @@ router.get("/",function(req,res){
   res.sendFile(path + "accueil.html");
 });
 
-router.get("/seconde",function(req,res){
+router.get("/target",function(req,res){
   res.sendFile(path + "ma_page.html");
 });
 
@@ -25,5 +25,5 @@ app.use(express.static(path));
 app.use("/", router);
 
 app.listen(8080, function () {
-  console.log('Mon application qui tourne sur le port 8080')
+  console.log('Example app listening on port 8080!')
 })
